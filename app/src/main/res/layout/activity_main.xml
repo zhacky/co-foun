@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background_selector"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <!-- upcoming pitches -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="top"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <!-- navigation tabs -->
+        <android.support.design.widget.BottomNavigationView
+            android:id="@+id/navigation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@android:color/transparent"
+            android:theme="@style/Widget.Design.BottomNavigationView"
+            app:itemIconTint="@drawable/navigation_tab_selector"
+            app:labelVisibilityMode="unlabeled"
+            app:menu="@menu/navigation">
+
+        </android.support.design.widget.BottomNavigationView>
+    </LinearLayout>
+
+
+        <!-- text views -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@android:color/transparent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="25dp"
+                android:fontFamily="@font/montserrat_semibold"
+                android:text="Prochains pitchs dans :"
+                android:textColor="@color/colorTextLight"
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/timerTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="150dp"
+                android:fontFamily="@font/anonymouspro_regular"
+                android:text="23:56:01"
+                android:textColor="@color/colorAccentYellow"
+                android:textSize="50dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <!-- background image and buttons -->
+        <LinearLayout
+            android:id="@+id/createNewViewLikesBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:visibility="invisible">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/image_rocket_splash"
+                android:backgroundTint="#55cccccc"
+                android:tintMode="add" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:fontFamily="@font/montserrat_semibold"
+                android:text="En attendant : "
+                android:textColor="@color/colorTextLight"
+                android:textSize="24dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_gravity="bottom"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:text="Crée ton pitch !"
+                android:textAllCaps="false"
+                android:textSize="24sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_gravity="bottom"
+                android:backgroundTint="@color/colorElementGreen"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:text="Retrouve tes likes"
+                android:textAllCaps="false"
+                android:textColor="@color/colorTextLight"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+    <!-- buttons container -->
+    <LinearLayout
+        android:id="@+id/buttonsContainer"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:orientation="horizontal"
+
+        >
+        <!-- button left / reject -->
+        <ImageButton
+            android:id="@+id/rejectBtn"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/pitch_buttons_reject_selector"
+            android:background="@android:color/transparent"
+            />
+        <!-- button right / accept -->
+        <ImageButton
+            android:id="@+id/acceptBtn"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/pitch_buttons_accept_selector"
+            android:background="@android:color/transparent"
+            />
+    </LinearLayout><!-- ./ buttons container -->
+    <!-- swipe placeholder (entire window) -->
+    <com.mindorks.placeholderview.SwipePlaceHolderView
+        android:id="@+id/swipeView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    </com.mindorks.placeholderview.SwipePlaceHolderView>
+
+    <!-- end swipe placeholder -->
+
+</FrameLayout>

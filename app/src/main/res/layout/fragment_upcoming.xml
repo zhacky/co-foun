@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background_selector"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prochains pitchs dans :"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:fontFamily="@font/montserrat_semibold"
+        android:layout_marginBottom="25dp"
+        android:textColor="@color/colorTextLight"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="23:56:01"
+        android:layout_gravity="center"
+        android:textColor="@color/colorAccentYellow"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="150dp"
+        android:fontFamily="@font/anonymouspro_regular"
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="bottom"
+        android:padding="20dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/image_rocket_splash"
+            android:layout_gravity="center"
+            android:backgroundTint="#55cccccc"
+            android:tintMode="add"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="En attendant : "
+            android:layout_margin="20dp"
+            android:layout_gravity="center"
+            android:textColor="@color/colorTextLight"
+            android:textSize="24dp"
+            android:fontFamily="@font/montserrat_semibold"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_gravity="bottom"
+            android:textAllCaps="false"
+            android:textSize="24dp"
+            android:fontFamily="@font/montserrat_extrabold"
+            android:text="Crée ton pitch !"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_gravity="bottom"
+            android:textAllCaps="false"
+            android:textSize="24dp"
+            android:textColor="@color/colorTextLight"
+            android:backgroundTint="@color/colorElementGreen"
+            android:fontFamily="@font/montserrat_extrabold"
+            android:text="Retrouve tes likes"/>
+    </LinearLayout>
+
+
+</FrameLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_account"
+        android:icon="@drawable/icon_account"
+        android:title="Account" />
+
+    <item
+        android:id="@+id/navigation_ideas"
+        android:icon="@drawable/icon_bulb"
+        android:title="Ideas" />
+
+    <item
+        android:id="@+id/navigation_pitches"
+        android:icon="@drawable/icon_pitch"
+        android:title="Pitches" />
+    <item
+        android:id="@+id/navigation_messages"
+        android:icon="@drawable/icon_message"
+        android:title="Messages" />
+
+</menu>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">CoFoun</string>
+    <string name="action_settings">Settings</string>
+    <string name="account">Account</string>
+    <string name="default_countdown_text">23 : 56 : 01</string>
+    <string name="background_image">background image</string>
+    <string name="create_pitch">Crée ton pitch !</string>
+    <string name="find_your_likes">Retrouve tes likes</string>
+    <string name="discover_cofoun_text">Découvre cofoun FACTORY</string>
+    <string name="click_for_more_options">Click for more options.</string>
+    <string name="displays_information_on_how_many_pitches_are_still_left">Displays information on how many pitches are still left.</string>
+    <string name="cofoun">cofoun</string>
+    <string name="cofoun_splash_logo">CoFoun Splash logo</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

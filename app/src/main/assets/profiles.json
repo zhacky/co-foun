@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Renault",
+    "description": "Chef de projet / etudiant en dev",
+    "title": "Nom de mon projet startup",
+    "content": "Cofoun est une super app permettant de partager ses idées de startup et discuter avec des wantrepreneurs afin de trouver son cofondateur ! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. cofoun est une sper app permettant !",
+    "avatar": "https://miro.medium.com/fit/c/240/240/0*s31daSIkw3NN0p-O."
+  },
+  {
+    "name": "Hardouin Chaussée",
+    "description": "Clinical manager",
+    "title": "Bugle Boy",
+    "content": "Make bugle sound authentic by just using this portable mouthpiece product.",
+    "avatar": "https://pbs.twimg.com/profile_images/822547732376207360/5g0FC8XX_400x400.jpg"
+  },
+  {
+    "name": "Patrick Lanoie",
+    "description": "Agricultural and food science technician",
+    "title": "Flexus",
+    "content": "A simple device that measures how much your muscles have improved.",
+    "avatar": "https://i.pinimg.com/236x/48/75/d1/4875d11c80a5d66cc2ad6c09c88d3962--portrait-photo-donald-trump.jpg"
+  },
+  {
+    "name": "Bellamy Gadbois",
+    "description": "Clock repairer",
+    "title": "Almacs",
+    "content": "Your new kind of restaurant tables.",
+    "avatar": "https://78.media.tumblr.com/avatar_7607791ba7c6_128.pnj"
+  },
+  {
+    "name": "Archard Patenaude",
+    "description": "Aircraft structure assembler",
+    "title": "Railbays",
+    "content": "Imagine a rail station resort.",
+    "avatar": "https://66.media.tumblr.com/avatar_13f340bed35a_128.pnj"
+  },
+  {
+    "name": "Arno Courtois",
+    "description": "Fish hatchery manager",
+    "title": "China Coast",
+    "content": "Whitelabel products at your fingertips.",
+    "avatar": "https://flagleredfoundation.org/wp-content/uploads/2017/07/bill-gates.jpg"
+  },
+  {
+    "name": "Bertrand Pelchat",
+    "description": "Assistant manager",
+    "title": "Big Wheel",
+    "content": "Turn your sedan into a monster truck.",
+    "avatar": "https://i.guim.co.uk/img/static/sys-images/Books/Pix/pictures/2005/10/24/murdo_bezos1.jpg?width=300&quality=85&auto=format&fit=max&s=fd3dc86bf6f596220e587bbe92ede087"
+  },
+  {
+    "name": "Dalmace Lanoie",
+    "description": "Sailor",
+    "title": "Leo's Stereo",
+    "content": "Relive the boombox experience.",
+    "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Larry_Ellison_picture.png/220px-Larry_Ellison_picture.png"
+  },
+  {
+    "name": "Aubrey Sansouci",
+    "description": "Employment assistant",
+    "title": "York Steak House",
+    "content": "Fine diner at its best, with all the latest technology.",
+    "avatar": "http://www.educationviews.org/wp-content/uploads/2018/09/Jack-Ma.jpg"
+  }
+]
